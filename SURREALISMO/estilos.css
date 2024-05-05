@@ -1,0 +1,368 @@
+.seccionhome {
+    background-color: black;
+}
+.navbar {
+    font-family: "Abril Fatface", serif;
+    
+}
+
+
+.logo {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.barrabusqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.searchbar {
+    width: 40%;
+}
+
+
+.surrealismo {
+    color: #c3e3fd;
+    font-family: "Abril Fatface", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.surrealismo h1 {
+    font-size: 120px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+
+
+.intro p {
+    color: #c3e3fd;
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    width: 45%;
+}
+
+.divboton {
+    margin-bottom: 8%;
+}
+
+
+
+
+footer {
+    background-color: #c3e3fd;
+    height: 100px;
+    font-family:  "Abril Fatface", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy {
+    width: 50%;
+    text-align: center;
+}
+
+.copy p {
+    color: black;
+}
+
+
+
+
+
+
+
+.historia {
+    color: #fbbe25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Abril Fatface", serif;
+    font-size: 100px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.titulohistoria1 {
+    color:#fbbe25;
+    font-size: 48px;
+    text-decoration: underline;
+    font-family:  "Abril Fatface", serif;
+}
+
+
+.divfotohistoria1 {
+    height: 650px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+    
+}
+
+
+.fotohistoria1 {
+    height: 500px;
+    width: 600px;
+    
+    
+}
+
+.histsurrealismo {
+
+    font-family: "Playfair Display";
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20%;
+}
+
+.linea1 {
+    margin-bottom: 5%;
+}
+
+.fotohistoria2 {
+    border-radius: 2%;
+    height: 805px;
+
+}
+ 
+.divfotohistoria2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 805px;
+    margin-top: 14%;
+}
+
+.divfotohistoria3 {
+
+    display: flex;
+    align-items: end;
+    height: 650px;
+    justify-content: center;
+}
+
+
+.fotohistoria3 {
+    height: 550px;
+}
+
+.linea2 {
+    margin-bottom: 5%;
+}
+
+.divfotohistoria4 {
+    
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.fotohistoria4 {
+
+    height: 800px;
+}
+
+
+
+
+
+
+
+
+
+.artistas {
+    color: #fbbe25;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Abril Fatface", serif;
+    font-size: 100px;
+    margin-top: 5%;
+}
+
+
+
+.historia {
+    color: #fbbe25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Abril Fatface", serif;
+    font-size: 100px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+.artistas {
+
+        color: #fbbe25;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:  "Abril Fatface", serif;
+        font-size: 100px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+        
+ }
+
+
+ .galeria {
+
+    color: #fbbe25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Abril Fatface", serif;
+    font-size: 100px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+.fondocontacto {
+    background-image: url(img/fondocontacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contacto {
+
+    color: #fbbe25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Abril Fatface", serif;
+    font-size: 100px;
+    margin-top: 5%;
+   margin-bottom: 10%;
+    width: 100%;
+    
+}
+
+
+.form {
+    width: 70%;
+}
+
+
+
+
+.divtextoscontacto {
+    background-color: white;
+
+}
+
+.esperoque p {
+    font-size: 25px;
+    color: #fbbe25;
+    font-family:  "Abril Fatface", serif;
+}
+
+.megustaria p {
+    color: #fbbe25;
+    font-family: "Playfair Display";
+    font-size: 23px;
+}
+
+.siestas {
+    color: #fbbe25;
+    font-family: "Playfair Display";
+    font-size: 20px;
+}
+
+.columna1 {
+    height: 350px;
+    display: flex;
+    align-items: end;
+    
+    
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+.obrasdestacadas {
+    color: #fbbe25;
+    display: flex;
+    justify-content: center;
+    font-family:  "Abril Fatface", serif;
+    font-size: 80px;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

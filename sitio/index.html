@@ -42,6 +42,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">CONTACTO</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="registrarse.html">REGISTRARSE</a>
+                    </li>
                 </ul>
 
             </div>
@@ -52,15 +56,12 @@
         <img src="img/logo.png" alt="logo">
     </Div>
 
-    <div class="barrabusqueda">
-        <div class="searchbar input-group flex-nowrap">
-        <span class="input-group-text" id="addon-wrapping"> 
-           </span>
-        <form action="resultados_buscar.php" method="POST">
-            <input name="buscar" type="text" class="form-control" placeholder="Buscar" aria-label="Username" aria-describedby="addon-wrapping">
-            <button type="submit"> <img class="lupa"  src="img/lupa.png" alt="lupa"> </button>         
-        </form>
-         </div>
+    <div class="form-container">
+            <form  class="barrabusqueda" action="resultados_buscar.php" method="POST">
+                <input name="buscar" type="text" class="form-control" placeholder="Buscar" aria-label="Username" aria-describedby="addon-wrapping">
+                  
+                <button type="submit" class="btn btn-secondary"><img class="lupa" src="img/lupa.png" alt=""></button>      
+            </form>
     </div>
 
 
